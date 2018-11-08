@@ -1,0 +1,634 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1538827385916,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "6aa64461-a8d5-4dfa-a59c-3f0039878805",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/Troubleshooting Cisco UCS Fabric Interconnects",
+      "namePath": "Custom Dashboards",
+      "rank": 201,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "041fe89e-0e57-4b79-921f-9c1dcde88f48",
+            "widgetIdReceiver": "e2f29950-6a9c-428d-8652-167bc4c14f4e"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "041fe89e-0e57-4b79-921f-9c1dcde88f48",
+            "widgetIdReceiver": "f669f746-fcf3-4607-acb8-84b9016fec2c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "041fe89e-0e57-4b79-921f-9c1dcde88f48",
+            "widgetIdReceiver": "906e0c9a-61e8-4bea-a75e-73d5e5cea7e7"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "041fe89e-0e57-4b79-921f-9c1dcde88f48",
+            "widgetIdReceiver": "7fadd509-20b4-47c2-9e20-ef3143437099"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "041fe89e-0e57-4b79-921f-9c1dcde88f48",
+            "widgetIdReceiver": "8bb7254e-be24-41ba-b8a9-9df0bac552df"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "041fe89e-0e57-4b79-921f-9c1dcde88f48",
+            "widgetIdReceiver": "3bd94e42-1d7f-485a-82ca-28c20031eaa0"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "041fe89e-0e57-4b79-921f-9c1dcde88f48",
+            "widgetIdReceiver": "aa0f03f0-f889-4a68-aebc-1de4c6e1986b"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Kernel Firmware Version",
+                     "metricKey": "general|kernelFirmwareRunning",
+                     "metricName": "General|Kernel Firmware Version",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Management IP",
+                     "metricKey": "general|oobIfIp",
+                     "metricName": "General|Management IP",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Serial Number",
+                     "metricKey": "general|serial",
+                     "metricName": "General|Serial Number",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Software Firmware Version",
+                     "metricKey": "general|softwareFirmwareRunning",
+                     "metricName": "General|Software Firmware Version",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "mode": 0,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "1.  Select Cisco UCS Fabric Interconnect"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 1,
+               "y": 1
+            },
+            "height": 324,
+            "id": "041fe89e-0e57-4b79-921f-9c1dcde88f48",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_6aa64461-a8d5-4dfa-a59c-3f0039878805_041fe89e-0e57-4b79-921f-9c1dcde88f48",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permResGrid_widget_6aa64461-a8d5-4dfa-a59c-3f0039878805_041fe89e-0e57-4b79-921f-9c1dcde88f48",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A176%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ewidth%25253Dn%2525253A219%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A188%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A197%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A130%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A128%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }
+            ],
+            "title": "1.  Select Cisco UCS Fabric Interconnect",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartHeight": 115,
+               "metricKey": "aggregate_sent_ethernet_port_traffic|totalEthernetSentPackets",
+               "metricLabel": "",
+               "metricName": "Aggregate Sent Ethernet Port Traffic|Total Ethernet Sent Packets (packets/s)",
+               "metricType": {"metricType": "custom"},
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Default Unit"
+               },
+               "mode": "self",
+               "paginationNumber": 15,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceKindId": "resourceKind:id:0_::_",
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "showMetricLabel": {"showMetricLabel": true},
+               "showResourceName": {"showResourceName": false},
+               "sortBy": "metricValue",
+               "sortByDir": {"orderByDir": "asc"},
+               "tagFilter": null,
+               "title": "5.  What does sent ethernet packet traffic look like (on the selected Fabric Interconnect)?",
+               "undefined": "Aggregate Sent Ethernet Port Traffic|Total Ethernet Sent Packets (packets/s)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 6,
+               "x": 1,
+               "y": 12
+            },
+            "height": 267,
+            "id": "7fadd509-20b4-47c2-9e20-ef3143437099",
+            "states": [
+               {
+                  "key": "permDateRange_HealthChart_widget_6aa64461-a8d5-4dfa-a59c-3f0039878805_7fadd509-20b4-47c2-9e20-ef3143437099",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last24Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_6aa64461-a8d5-4dfa-a59c-3f0039878805_7fadd509-20b4-47c2-9e20-ef3143437099",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "5.  What does sent ethernet packet traffic look like (on the selected Fabric Interconnect)?",
+            "type": "HealthChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19966-1",
+                        "isStringMetric": false,
+                        "label": "Cached Memory",
+                        "link": "",
+                        "metricKey": "system_stats|memCached",
+                        "metricName": "System Stats|Cached Memory",
+                        "metricUnitId": "mibyte",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": "MiB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19966-2",
+                        "isStringMetric": false,
+                        "label": "CPU Load",
+                        "link": "",
+                        "metricKey": "system_stats|load",
+                        "metricName": "System Stats|CPU Load",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19966-3",
+                        "isStringMetric": false,
+                        "label": "Effective Memory",
+                        "link": "",
+                        "metricKey": "system_stats|memAvailable",
+                        "metricName": "System Stats|Effective Memory",
+                        "metricUnitId": "mibyte",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": "MiB",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "3.  What does CPU and Memory consumption look like (on the selected Fabric Interconnect)?",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 6,
+               "x": 7,
+               "y": 4
+            },
+            "height": 153,
+            "id": "e2f29950-6a9c-428d-8652-167bc4c14f4e",
+            "title": "3.  What does CPU and Memory consumption look like (on the selected Fabric Interconnect)?",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartHeight": 115,
+               "metricKey": "aggregate_sent_ethernet_port_traffic|totalEthernetSentThroughput",
+               "metricLabel": "",
+               "metricName": "Aggregate Sent Ethernet Port Traffic|Total Ethernet Sent Throughput (bit/s)",
+               "metricType": {"metricType": "custom"},
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Default Unit"
+               },
+               "mode": "self",
+               "paginationNumber": 15,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceKindId": "resourceKind:id:0_::_",
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "showMetricLabel": {"showMetricLabel": true},
+               "showResourceName": {"showResourceName": false},
+               "sortBy": "metricValue",
+               "sortByDir": {"orderByDir": "asc"},
+               "tagFilter": null,
+               "title": "6.  What does sent ethernet throughput look like (on the selected Fabric Interconnect)?",
+               "undefined": "Aggregate Sent Ethernet Port Traffic|Total Ethernet Sent Throughput (bit/s)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 6,
+               "x": 7,
+               "y": 12
+            },
+            "height": 267,
+            "id": "8bb7254e-be24-41ba-b8a9-9df0bac552df",
+            "states": [
+               {
+                  "key": "permDateRange_HealthChart_widget_6aa64461-a8d5-4dfa-a59c-3f0039878805_8bb7254e-be24-41ba-b8a9-9df0bac552df",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_6aa64461-a8d5-4dfa-a59c-3f0039878805_8bb7254e-be24-41ba-b8a9-9df0bac552df",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "6.  What does sent ethernet throughput look like (on the selected Fabric Interconnect)?",
+            "type": "HealthChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel6721-1",
+                     "isStringMetric": false,
+                     "metricKey": "aggregate_received_ethernet_port_traffic|totalEthernetReceivedPackets",
+                     "metricName": "Aggregate Received Ethernet Port Traffic|Total Ethernet Received Packets",
+                     "metricUnitId": "packetsps",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Cisco UCS Fabric Interconnect",
+                     "unit": "packets/s"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "4.  What does received ethernet packet traffic look like (on the selected Fabric Interconnect)?"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 6,
+               "x": 1,
+               "y": 7
+            },
+            "height": 267,
+            "id": "f669f746-fcf3-4607-acb8-84b9016fec2c",
+            "states": [
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_6aa64461-a8d5-4dfa-a59c-3f0039878805_f669f746-fcf3-4607-acb8-84b9016fec2c",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_6aa64461-a8d5-4dfa-a59c-3f0039878805_f669f746-fcf3-4607-acb8-84b9016fec2c",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_6aa64461-a8d5-4dfa-a59c-3f0039878805_f669f746-fcf3-4607-acb8-84b9016fec2c",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last24Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_6aa64461-a8d5-4dfa-a59c-3f0039878805_f669f746-fcf3-4607-acb8-84b9016fec2c",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_6aa64461-a8d5-4dfa-a59c-3f0039878805_f669f746-fcf3-4607-acb8-84b9016fec2c",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_6aa64461-a8d5-4dfa-a59c-3f0039878805_f669f746-fcf3-4607-acb8-84b9016fec2c",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "4.  What does received ethernet packet traffic look like (on the selected Fabric Interconnect)?",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel22695-1",
+                     "isStringMetric": false,
+                     "metricKey": "aggregate_received_ethernet_port_traffic|totalEthernetReceivedThroughput",
+                     "metricName": "Aggregate Received Ethernet Port Traffic|Total Ethernet Received Throughput",
+                     "metricUnitId": "bitps",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Cisco UCS Fabric Interconnect",
+                     "unit": "bit/s"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "5.  What does received ethernet throughput look like (on the selected Fabric Interconnect)?"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 6,
+               "x": 7,
+               "y": 7
+            },
+            "height": 267,
+            "id": "906e0c9a-61e8-4bea-a75e-73d5e5cea7e7",
+            "states": [
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_6aa64461-a8d5-4dfa-a59c-3f0039878805_906e0c9a-61e8-4bea-a75e-73d5e5cea7e7",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_6aa64461-a8d5-4dfa-a59c-3f0039878805_906e0c9a-61e8-4bea-a75e-73d5e5cea7e7",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last24Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_6aa64461-a8d5-4dfa-a59c-3f0039878805_906e0c9a-61e8-4bea-a75e-73d5e5cea7e7",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_6aa64461-a8d5-4dfa-a59c-3f0039878805_906e0c9a-61e8-4bea-a75e-73d5e5cea7e7",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_6aa64461-a8d5-4dfa-a59c-3f0039878805_906e0c9a-61e8-4bea-a75e-73d5e5cea7e7",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_6aa64461-a8d5-4dfa-a59c-3f0039878805_906e0c9a-61e8-4bea-a75e-73d5e5cea7e7",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "5.  What does received ethernet throughput look like (on the selected Fabric Interconnect)?",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6064-1",
+                        "isStringMetric": false,
+                        "metricKey": "aggregate_received_fiber_channel_traffic|totalFiberReceivedPackets",
+                        "metricName": "Aggregate Received Fiber Channel Traffic|Total Fiber Channel Received Packets",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6064-2",
+                        "isStringMetric": false,
+                        "metricKey": "aggregate_received_fiber_channel_traffic|totalFiberReceivedBits",
+                        "metricName": "Aggregate Received Fiber Channel Traffic|Total Fiber Channel Received Throughput",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6064-3",
+                        "isStringMetric": false,
+                        "metricKey": "aggregate_sent_fiber_channel_traffic|totalFiberSentPackets",
+                        "metricName": "Aggregate Sent Fiber Channel Traffic|Total Fiber Channel Sent Packets",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6064-4",
+                        "isStringMetric": false,
+                        "metricKey": "aggregate_sent_fiber_channel_traffic|totalFiberSentBits",
+                        "metricName": "Aggregate Sent Fiber Channel Traffic|Total Fiber Channel Sent Throughput",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "7.  What does fiber channel traffic look like (on the selected Fabric Interconnect)?",
+               "valueSize": 24,
+               "visualTheme": 5
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 12,
+               "x": 1,
+               "y": 17
+            },
+            "height": 210,
+            "id": "3bd94e42-1d7f-485a-82ca-28c20031eaa0",
+            "title": "7.  What does fiber channel traffic look like (on the selected Fabric Interconnect)?",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 5,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel38115-1",
+                        "isStringMetric": false,
+                        "metricKey": "System Attributes|alert_count_critical",
+                        "metricName": "vRealize Operations Generated|Alert Count Critical",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel38115-2",
+                        "isStringMetric": false,
+                        "metricKey": "System Attributes|alert_count_immediate",
+                        "metricName": "vRealize Operations Generated|Alert Count Immediate",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel38115-3",
+                        "isStringMetric": false,
+                        "metricKey": "System Attributes|alert_count_info",
+                        "metricName": "vRealize Operations Generated|Alert Count Info",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel38115-4",
+                        "isStringMetric": false,
+                        "metricKey": "System Attributes|alert_count_warning",
+                        "metricName": "vRealize Operations Generated|Alert Count Warning",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel38115-5",
+                        "isStringMetric": false,
+                        "metricKey": "System Attributes|total_alert_count",
+                        "metricName": "vRealize Operations Generated|Total Alert Count",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "2.  How many Alerts are being seen (on the selected Fabric Interconnect)?",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 6,
+               "x": 7,
+               "y": 1
+            },
+            "height": 153,
+            "id": "aa0f03f0-f889-4a68-aebc-1de4c6e1986b",
+            "title": "2.  How many Alerts are being seen (on the selected Fabric Interconnect)?",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [{
+      "adapterKindKey": "CiscoUcsAdapter",
+      "internalId": "resourceKind:id:0_::_",
+      "resourceKindKey": "bm_ucs_fabric_interconnect"
+   }]},
+   "uuid": "09cbeaaa-2646-4ee4-97b3-80e20381e625"
+}
